@@ -7,7 +7,7 @@ This .pdf file contains the challenge description.
 
 ## WallysWidgets.java
 
-WallysWidgets.java is the solution for the challenge. The solution is run by compiling the file into ByteCode (WallysWidgets.class) and then running the file via the terminal/IDE. **Alternatively, WallysWidgets.java can be run on an online environment here: jdoodle.com/ia/5qC**
+WallysWidgets.java is the solution for the challenge. The solution is run by compiling the file into ByteCode (WallysWidgets.class) and then running the file via the terminal/IDE. **Alternatively, WallysWidgets.java can be run on an online environment here: [link](jdoodle.com/ia/5qC)**
 
 ## WallysWidgetsTest.java
 
