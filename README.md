@@ -24,5 +24,5 @@ Leetcode problem (https://leetcode.com/problems/combination-sum/), and was origi
 The solution to the Stickee Developer Challenge can be run on an online environment here: www.jdoodle.com/ia/5J3
 
 ### JDoodle Notes
- - The source code within the files at JDoodle may take a few seconds to load.
+ - The source code within the files at JDoodle may take a few seconds to load. (This seems especially so for the WallyWidgetsConsoleTests.java file).
  - To run a class in JDoodle (either the WallyWidgetsConsoleTests.java or WallyWidgets.java file), mark the class as a 'Start File' via the horizontal burger menu, and click execute.
