@@ -28,16 +28,16 @@ import java.util.Set;
  * 
  * Algorithmic abstraction:
  * 
- * 									Can the widget order be fulfilled by a combination
- * 											  of the available packages?
- *	  												/              		\
- *	  										   yes /  					 \ no		
- * 	  										      /    				 	  \
- *	  									     	 /      			  	   \
- * 						            Return the combination		  Attempt to find the selection
- *                                    that uses the least		   of packages that uses the 
- *                                    amount of packages.		   minimum amount of widgets and
- *                                    								packages necessary (rule 2 and 3).
+ * 				Can the widget order be fulfilled by a combination
+ * 				         of the available packages?
+ *					  /              	\
+ *			             yes /  			 \ no		
+ * 	  			        /    			  \
+ *	  			       /      			   \
+ * 		              Return the combination          Attempt to find the selection
+ *      		       that uses the least		of packages that uses the 
+ * 	                       amount of packages.	       minimum amount of widgets and
+ *                                                            packages necessary (rule 2 and 3).
  * 
  * 
  * 
@@ -181,7 +181,7 @@ public class WallysWidgets {
 		 * 		   able to be reorganised so that less packages are used.
 		 */
 		int[] refinedOrder 			 = collectWidgets(PACKAGES, totalWidgetsForMinimumOrder);
-		int totalWidgetsRefinedOrder = sum(PACKAGES, refinedOrder)						    ;
+		int totalWidgetsRefinedOrder = sum(PACKAGES, refinedOrder)					;
 
 		// If the refinement order has broken rule 2, then go with the initial minimumWidgetsOrder.
 		if (totalWidgetsForMinimumOrder < totalWidgetsRefinedOrder) {
